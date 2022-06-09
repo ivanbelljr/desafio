@@ -1,11 +1,13 @@
 @charset "UTC-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 root {
-    --fonte1: Verdana , Geneva, Tahoma, sans-serif;
-    --fonte2: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-    --fonte3: fantasy, cursive;
-    
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Kdam Thmor Pro', sans-serif;
+    --fonte3: 'Indie Flower'; cursive;
 }
 
 * {
@@ -16,20 +18,20 @@ root {
 html, body {
     min-height: 100vh;
     background-color: darkgray;
-    font-family: var(--fonte1)
+    font-family: var(--fonte11)
 }
 
 header {
     background-color: black;
     color: white;
     text-align: center;
-    font-family: var(--fonte2)
+    font-family: var(--fonte12)
 }
 
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
-    font-family: var(--fonte1)
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 header > p {
@@ -51,7 +53,7 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    
+    font-family: 
 }
 
 section.normal {
